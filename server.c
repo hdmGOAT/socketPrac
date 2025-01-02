@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <winsock2.h>
+#include <ws2tcpip.h>
 
 void error(const char *msg)
 {
@@ -22,5 +23,5 @@ int main(int argc, char *argv[]){
 
     struct sockaddr_in serv_addr, cli_addr;
     int clilen = sizeof(cli_addr);
-    
+
 }
