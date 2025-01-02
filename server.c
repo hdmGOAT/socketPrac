@@ -43,5 +43,8 @@ int main(int argc, char *argv[]){
     bzero((serv_addr, sizeof(serv_addr)));
 
     port = atoi(argv[1]);
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s
     
 }
